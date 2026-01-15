@@ -1,0 +1,8 @@
+# Claude Code should never read files with credentials
+.env
+.env.local
+.env.production
+sprites/**/.env
+**/secrets/
+**/*.pem
+**/*.key

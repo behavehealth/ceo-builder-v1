@@ -6,10 +6,13 @@ node_modules/
 dist/
 .astro/
 
-# Environment
+# Environment (NEVER commit actual credentials)
 .env
-.env.*
+.env.local
+.env.production
+sprites/**/.env
 !.env.example
+!sprites/**/.env.example
 
 # IDE
 .vscode/

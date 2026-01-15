@@ -44,7 +44,10 @@
       "Bash(pkill:*)",
       "Bash(npx shadcn@latest init --defaults --base-color slate)",
       "Bash(npx shadcn@latest add:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial setup: CEO Command Center foundation\n\n- Astro 5 + React 19 with Islands architecture\n- Tailwind CSS v4 + Shadcn/ui components\n- Dashboard with tool/sprite/task monitoring\n- CLAUDE.md with project context\n- Infrastructure: Fly.io Sprites, PlanetScale setup in progress\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(open:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
